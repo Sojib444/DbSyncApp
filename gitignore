@@ -1,0 +1,30 @@
+# Build output
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider
+.idea/
+
+# NuGet
+*.nupkg
+packages/
+project.lock.json
+project.assets.json
+
+# App user data (saved connection profiles with passwords)
+%APPDATA%/DBSyncApp/
+
+# Logs
+*.log
+sync_log_*.txt
+
+# OS
+Thumbs.db
+.DS_Store
